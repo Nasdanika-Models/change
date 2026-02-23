@@ -1,0 +1,80 @@
+<mxfile compressed="false" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram id="43aa48a1-ebb0-4b25-93c7-5b1905346885" name="Compare">
+    <mxGraphModel dx="1304" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="FeatureChange" link="references/eClassifiers/FeatureChange/index.html" id="a8dc6950-7cff-4289-973a-f7cd59da394c">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="95.00296043850284" y="299.9973715901031" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ChangeDescription" link="references/eClassifiers/ChangeDescription/index.html" id="f3cf7c19-75d4-4249-b433-966f0ffa2662">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="239.99672713926338" y="80.00332808706219" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ListChange" link="references/eClassifiers/ListChange/index.html" id="2e5c0044-d8c0-4268-8ca8-cc479f4970c5">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="239.99599040776434" y="419.99836650580744" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="listChanges" link="references/eClassifiers/FeatureChange/references/eStructuralFeatures/listChanges/index.html" id="44496da2-355e-4863-af47-dfe1af20eead">
+          <mxCell edge="1" parent="1" source="a8dc6950-7cff-4289-973a-f7cd59da394c" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="2e5c0044-d8c0-4268-8ca8-cc479f4970c5">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ResourceChange" link="references/eClassifiers/ResourceChange/index.html" id="3db85d78-9a07-4d16-9929-b90737f35145">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="359.99565230719986" y="220.33567576801283" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="listChanges" link="references/eClassifiers/ResourceChange/references/eStructuralFeatures/listChanges/index.html" id="b973908c-e287-4a48-a3fc-5b891affaead">
+          <mxCell edge="1" parent="1" source="3db85d78-9a07-4d16-9929-b90737f35145" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="2e5c0044-d8c0-4268-8ca8-cc479f4970c5">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="resourceChanges" link="references/eClassifiers/ChangeDescription/references/eStructuralFeatures/resourceChanges/index.html" id="51813af4-5769-4c3c-9006-a2da3218ba6f">
+          <mxCell edge="1" parent="1" source="f3cf7c19-75d4-4249-b433-966f0ffa2662" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="3db85d78-9a07-4d16-9929-b90737f35145">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="EObjectToChangesMapEntry" link="references/eClassifiers/EObjectToChangesMapEntry/index.html" id="9689e79c-8717-4dff-8104-e10329e5122c">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="170" x="70" y="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="value" link="references/eClassifiers/EObjectToChangesMapEntry/references/eStructuralFeatures/value/index.html" id="b259b512-a8d4-4af1-9a68-f9eb8f2b97d0">
+          <mxCell edge="1" parent="1" source="9689e79c-8717-4dff-8104-e10329e5122c" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="a8dc6950-7cff-4289-973a-f7cd59da394c">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="objectChanges" link="references/eClassifiers/ChangeDescription/references/eStructuralFeatures/objectChanges/index.html" id="ed261e69-ae78-42ba-a576-1e3262792314">
+          <mxCell edge="1" parent="1" source="f3cf7c19-75d4-4249-b433-966f0ffa2662" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="9689e79c-8717-4dff-8104-e10329e5122c">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ChangeKind" link="references/eClassifiers/ChangeKind/index.html" id="0601f68a-9692-4a82-9338-842ac14544ef">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="1920" y="1080" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="EObjectToURIMap" link="references/eClassifiers/EObjectToURIMap/index.html" id="63080861-86b4-4b75-af81-9db4b8109887">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="95" y="420" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="FeatureMapEntry" link="references/eClassifiers/FeatureMapEntry/index.html" id="e6aef84a-1d4d-4d9f-9913-a21a214bb4e1">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="239.99436672527963" y="520" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="featureMapEntryValues" link="references/eClassifiers/ListChange/references/eStructuralFeatures/featureMapEntryValues/index.html" id="4db9a399-250d-4f5a-9664-1fea326f08c6">
+          <mxCell edge="1" parent="1" source="2e5c0044-d8c0-4268-8ca8-cc479f4970c5" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="e6aef84a-1d4d-4d9f-9913-a21a214bb4e1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
