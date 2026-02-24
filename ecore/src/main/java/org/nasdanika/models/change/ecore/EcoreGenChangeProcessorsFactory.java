@@ -82,7 +82,7 @@ public class EcoreGenChangeProcessorsFactory {
 				try {
 					Document document = Document.create(false, null);
 					Page page = document.createPage();
-					page.setName("Compare");
+					page.setName("Change");
 					
 					Model model = page.getModel();
 					Root root = model.getRoot();
